@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>F1 Telemetry</title>
+    <meta content="F1 Web Telemetry" property="og:title">
+    <meta content="DIY Race Engineering right inside your own web browser" property="og:description">
+    <meta content="./ApolloRectangle.png" property="og:image">
+    <meta content="#ff4654" data-react-helmet="true" name="theme-color">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <p id="versionText"></p>
+    <img id="logo" src="./ApolloCircle.png"></img>
+    <div id="console-modal">
+        <input id="consoleInput" type="text" class="console-entry">
+        <p id="last" class="consoleEcho">> You have activated the command terminal by clicking the logo.</p>
+        <p  class="consoleEcho">> Hit enter with a blank to close this.</p>
+    </div>
+    <div class='ses'>
+        <div id="scvsc" class="greenFlag"></div>
+        <div class="sessionInf" id="sesInf">
+            <div class="session" id="sessionName"></div>
+            <div class="laps" id="sessionLaps"></div>
+        </div>
+        <div class="marshal" id="marshalDiv"></div>
+        <div class="weather" id="weatherDiv"></div>
+    </div>
+    <div id='tabDiv'>
+        <table class="styled-table">
+
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Driver</th>
+                    <th>Tyre Wear</th>
+                    <th>Tyre Age</th>
+                    <th>Tyre Temp</th>
+                    <th>ERS</th>
+                    <th>ERS Mode</th>
+                    <th>Fuel Mode</th>
+                    <th>Fuel Margin</th>
+                    <th>Penalties</th>
+                    <th>Gap</th>
+                    <th>Wing Damage</th>
+                    <th>Last Lap</th>
+                    <th>Best Lap</th>
+                </tr>
+            </thead>
+            <tbody id='tablebody' class='tbod'>
+            </tbody>
+        </table>
+    </div>
+    <script src="./clientUpdater.js"></script>
+</body>
+
+</html>
