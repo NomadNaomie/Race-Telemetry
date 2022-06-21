@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="27.5278mm" height="25.4103mm" viewBox="2.25 1.13 97.99 94.87" xmlns="http://www.w3.org/2000/svg">
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 4px;" d="M 54.95 15.06 L 54.9 5.69" transform="matrix(-1, 0, 0, -1, 109.850002, 20.750001)"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 4px;" d="M 82.76 16.55 L 76.59 22.93"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 4px;" d="M 92.55 43.41 L 83.7 43.41"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 4px;" d="M 82.4 71.16 L 76.88 64.57"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 4px;" d="M 25.77 43.32 L 16.72 43.1"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-width: 4px;" d="M 35.08 23.34 L 28.7 16.55"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; fill-rule: evenodd; stroke-linecap: round; stroke-width: 5px;" d="M 55.14 24.06 A 19.1 19.1 0 0 1 59.97 61.65"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; fill-rule: evenodd; stroke-linecap: round; stroke-width: 5px;" d="M 34.66 42.6 C 34.63 28.65 50.31 19.9 62.88 26.84 C 67.25 29.28 70.44 33.3 71.71 38.02" transform="matrix(0.981627, -0.190809, 0.190809, 0.981627, -5.415841, 10.76375)"/>
+  <path style="stroke: rgb(0, 0, 0); fill-rule: evenodd; fill: none; stroke-width: 4px;"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;"/>
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px;" d="M 15.35 65.22 C 16.5 62.7 19.35 61.85 21.45 62.38 C 24.07 62.76 26.49 61.95 26.59 61.44 C 26.59 61.44 28.98 58.91 32.89 57.14 C 36.8 55.37 41.58 55.06 46.32 58.5 C 47.74 59.13 50.27 62.28 51.15 65.64 C 52.03 69 50.15 77.89 50.94 73.4 L 51.78 74.87 C 66.75 78.71 57.82 91.43 51.57 89.99 L 12.73 90.2 C 5.43 90.75 2.48 74.36 13.15 72.56 L 14.1 72.35 C 14.41 72.67 13.45 67.45 15.35 65.22 Z"/>
+</svg>

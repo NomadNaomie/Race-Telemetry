@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="595.67 284.36 99.61 49.94" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <g transform="matrix(1.309241, -0.017314, 0, 1, -131.011414, 11.023502)" style="" bx:origin="1.4 0.38">
+    <g style="" transform="matrix(0.866496, 0, 0, 1, 83.822723, 0.288484)">
+      <polygon style="stroke-linejoin: round; stroke-linecap: round; fill-rule: evenodd; paint-order: stroke; fill: rgb(0, 255, 0); stroke: rgb(0, 255, 0);" points="624.6 292.84 626.57 294.81 626.57 323.54 624.42 325.69 623.08 308.36 622.7 308.17 622.93 308.48"/>
+      <rect x="601.25" y="289.38" width="23.28" height="39.67" style="paint-order: stroke; fill: rgb(0, 255, 0); stroke: rgb(0, 255, 0);"/>
+    </g>
+  </g>
+  <g transform="matrix(1.234038, 0, 0, 1, -109.230904, 0)" style="" bx:origin="1.4 0.38">
+    <g>
+      <polygon style="stroke-linejoin: round; stroke-linecap: round; fill-rule: evenodd; paint-order: stroke; fill: rgb(220, 255, 0); stroke: rgb(220, 255, 0);" points="624.6 292.84 626.57 294.81 626.57 323.54 624.42 325.69 623.08 308.36 622.7 308.17 622.93 308.48"/>
+      <rect x="601.25" y="289.38" width="23.28" height="39.67" style="paint-order: stroke; fill: rgb(220, 255, 0); stroke: rgb(220, 255, 0);"/>
+    </g>
+  </g>
+  <g transform="matrix(0.883455, 0, 0, 1, 88.250778, 0)" style="">
+    <g>
+      <polygon style="stroke-linejoin: round; stroke-linecap: round; fill-rule: evenodd; paint-order: stroke; stroke: rgb(255, 160, 0); fill: rgb(255, 160, 0);" points="624.6 292.84 626.57 294.81 626.57 323.54 624.42 325.69 623.08 308.36 622.7 308.17 622.93 308.48"/>
+      <rect x="601.25" y="289.38" width="23.28" height="39.67" style="paint-order: stroke; stroke: rgb(255, 160, 0); fill: rgb(255, 160, 0);"/>
+    </g>
+  </g>
+  <g transform="matrix(0.753864, 0.000153, 0, 1, 148.554962, -0.095008)" style="">
+    <g>
+      <polygon style="stroke-linejoin: round; stroke-linecap: round; fill: rgb(255, 80, 0); paint-order: fill; fill-rule: evenodd; stroke: rgb(255, 80, 0);" points="624.6 292.84 626.57 294.81 626.57 323.54 624.42 325.69 623.08 308.36 622.7 308.17 622.93 308.48"/>
+      <rect x="601.25" y="289.38" width="23.28" height="39.67" style="fill: rgb(255, 80, 0); stroke: rgb(255, 80, 0);"/>
+    </g>
+  </g>
+  <g>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="600.11" y1="287.89" x2="688.32" y2="287.89"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="688.58" y1="288.48" x2="688.58" y2="291.13"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="688.86" y1="291.8" x2="690.91" y2="294.62"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="691.03" y1="295.73" x2="691.11" y2="322.74"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="688.87" y1="330.54" x2="599.41" y2="330.54"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="599.46" y1="330.27" x2="599.46" y2="323.22"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="599.71" y1="323.16" x2="602.48" y2="322.96"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="602.34" y1="322.06" x2="602.34" y2="295.7"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="602.34" y1="295.7" x2="599.52" y2="295.7"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="599.49" y1="287.71" x2="599.49" y2="287.89"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="599.49" y1="288.27" x2="599.49" y2="294.53"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="689.19" y1="330.44" x2="689.19" y2="327.13"/>
+    <line style="stroke: rgb(255, 0, 0); stroke-linecap: round; stroke-miterlimit: 0; stroke-width: 4px;" x1="689.15" y1="326.17" x2="691.29" y2="323.53" transform="matrix(-0.981041, 0.193801, -0.193801, -0.981041, 1430.310276, 509.775836)"/>
+  </g>
+</svg>
