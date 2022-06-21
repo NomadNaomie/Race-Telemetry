@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="26.455mm" height="23.2804mm" viewBox="1.25 -0.25 96.75 85.24" xmlns="http://www.w3.org/2000/svg">
+  <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 4px; stroke-linecap: round; stroke-miterlimit: 2;" transform="matrix(0.999999, -0.001623, 0.001623, 0.999999, -0.053467, 0.080206)" d="M 21.61 20.36 C 22.52 18.32 24.1 16.96 25.87 16.22 C 27.64 15.47 29.6 15.35 31.26 15.77 C 33.34 16.08 35.1 16.15 36.59 15.93 C 38.09 15.72 39.32 15.21 40.37 14.37 C 40.37 14.37 41.07 13.32 42.55 11.91 C 44.02 10.5 46.27 8.74 49.36 7.3 C 52.45 5.87 55.89 5.03 59.49 5.25 C 63.1 5.46 66.86 6.73 70.62 9.5 C 71.74 10.01 73.3 11.54 74.75 13.62 C 76.21 15.7 77.56 18.33 78.25 21.04 C 78.94 23.76 78.54 28.7 78.13 32.07 C 77.72 35.43 77.29 37.21 77.91 33.58 L 78.58 34.77 L 79.25 35.95 C 92.15 35.15 96.97 43.69 94.03 50.94 C 91.09 58.19 84.84 62.03 71.47 61.51 M 16.41 60.26 C 10.64 60.01 6.85 53.72 6.61 47.14 C 6.37 40.56 9.69 33.67 18.13 32.23 L 18.89 32.06 L 19.64 31.88 C 19.89 32.14 19.63 30.17 19.68 27.67 C 19.74 25.17 20.11 22.16 21.61 20.36"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 4px; stroke-linecap: round; stroke-miterlimit: 2;"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 4px; stroke-linecap: round; stroke-miterlimit: 2;" d="M 17.48 60.49 L 27.97 61.56"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 2;"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 2;"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 2;"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 2;"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 2;"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 2;"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 1; stroke-width: 4px;" d="M 46.43 71.92 L 41.72 79.05"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 1; stroke-width: 4px;" d="M 46.6 55.92 L 40.99 65.04"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 1; stroke-width: 4px;" d="M 58.53 72.13 L 53.7 79.22"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 1; stroke-width: 4px;" d="M 33.44 70.98 L 28.28 77.97"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-miterlimit: 1; stroke-width: 4px;" d="M 60.28 58.08 L 55.27 65.53"/>
+</svg>

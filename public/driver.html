@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>F1 Telemetry</title>
+    <meta content="F1 Telemetry for Drivers" property="og:title">
+    <meta content="To be run in a phone while racing" property="og:description">
+    <meta content="./ApolloRectangle.png" property="og:image">
+    <meta content="#ff4654" data-react-helmet="true" name="theme-color">
+    <link rel="stylesheet" href="./drivers.css">
+</head>
+
+<body>
+    <label id="pos-label" for="driverSelfPos">Select Your Grid Position ➡️</label>
+    <input inputmode="numeric" id="driverSelfPos" name="Current Position" min="1" max="20" step="1" value="1"/>
+    <div id="main">
+    <table class="driver-table">
+        <thead id="table-head">
+            <tr>
+                <th>Position</th>
+                <th>Wear</th>
+                <th>ERS</th> 
+                <th>Penalties</th>
+                <th>Damage</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            
+        </tbody>
+    </table>
+    </div>
+    <script src="./driverUpdater.js"></script>
+</body>

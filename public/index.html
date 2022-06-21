@@ -3,20 +3,71 @@
 
 <head>
     <title>F1 Telemetry</title>
-    <meta content="F1 Web Telemetry" property="og:title">
+    <meta content="Apollo F1 Web Telemetry" property="og:title">
     <meta content="DIY Race Engineering right inside your own web browser" property="og:description">
-    <meta content="./ApolloRectangle.png" property="og:image">
+    <meta content="https://apolloracing.club/images/ApolloRectangle.png" property="og:image">
     <meta content="#ff4654" data-react-helmet="true" name="theme-color">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
+<img id="logo" src="https://apolloracing.club/images/ApolloCircle.png"></img>
     <p id="versionText"></p>
-    <img id="logo" src="./ApolloCircle.png"></img>
-    <div id="console-modal">
+    <div id="nav-bar">
+     <a href="https://apolloracing.club">Home</a>
+     <a href="https://apolloracing.club">Instagram</a>
+     <a href="https://twitter.com/ApolloRaceClub">Twitter</a>
+     <a href="https://www.youtube.com/channel/UCrtGu3a8k6EOH4Nyv7Qdrcg/videos">Race VODs</a>
+    </div>
+     <div id="console-modal">
         <input id="consoleInput" type="text" class="console-entry">
         <p id="last" class="consoleEcho">> You have activated the command terminal by clicking the logo.</p>
-        <p  class="consoleEcho">> Hit enter with a blank to close this.</p>
+        <p class="consoleEcho">> Hit enter with a blank to close this.</p>
+    </div>
+    <div id="driver-modal">
+        <div id="driver-info">
+            <h2 id="team-name"></h2>
+            <p id="best-lap"></p>
+            <p id="last-lap"></p>
+            <p id="m-warnings"></p>
+            <p id="unserved-penalties"></p>
+            <p id="tc"></p>
+            <p id="abs"></p>
+            <p id="laps-completed"></p>
+        </div>
+        <div id="history-lap">
+            <div id="header-div">
+                <h1>Press Escape to exit driver view</h1>
+                <table id="history-header" class="styled-table">
+                    <thead>
+                        <th>Lap</th>
+                        <th>Tyre</th>
+                        <th>Overall</th>
+                        <th>Sector 1</th>
+                        <th>Sector 2</th>
+                        <th>Sector 3</th>
+                    </thead>
+                </table>
+            </div>
+            <div id="scrollable-div">
+                <table id="lap-history" class="styled-table">
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="damage">
+            <p>Damage:</p>
+            <div title="Front Wing Right" id="rwing"></div>
+            <div title="Front Wing Left" id="lwing"></div>
+            <div title="Floor Right" id="rfloor" class="floor"></div>
+            <div title="Sidepod Right" id="rsidepods" class="sidepod"></div>
+            <div title="Sidepod Left" id="lsidepods" class="sidepod"></div>
+            <div title="Floor Left" id="lfloor" class="floor"></div>
+            <div title="Diffuser" id="diffuser" class="diffuser"></div>
+            <div title="Rear Wing" id="rear-wing" class="rearwing"></div>
+        </div>
+    </div>
     </div>
     <div class='ses'>
         <div id="scvsc" class="greenFlag"></div>
@@ -28,29 +79,42 @@
         <div class="weather" id="weatherDiv"></div>
     </div>
     <div id='tabDiv'>
-        <table class="styled-table">
+        <table id="mainTable" class="styled-table">
 
             <thead>
-                <tr>
-                    <th>Position</th>
-                    <th>Driver</th>
-                    <th>Tyre Wear</th>
-                    <th>Tyre Age</th>
-                    <th>Tyre Temp</th>
-                    <th>ERS</th>
-                    <th>ERS Mode</th>
-                    <th>Fuel Mode</th>
-                    <th>Fuel Margin</th>
-                    <th>Penalties</th>
-                    <th>Gap</th>
-                    <th>Wing Damage</th>
-                    <th>Last Lap</th>
-                    <th>Best Lap</th>
+                <tr id="header-row">
                 </tr>
             </thead>
             <tbody id='tablebody' class='tbod'>
             </tbody>
         </table>
+    </div>
+    <div id="controls">
+        <div id="highlights">
+        <label for="highlight-select">Highlight a row</label>
+        <select id="highlight-select" name="highlight-select">
+        </select></div>
+        <div id="col-select">
+            <input class="col-input" checked type="checkbox" id="Select-Position">Position</input>
+            <input class="col-input" checked type="checkbox" id="Select-Driver">Driver</input>
+            <input class="col-input" checked type="checkbox" id="Select-Tyre">Tyre</input>
+            <input class="col-input" type="checkbox" id="Select-Tyre-Wear">Tyre Wear</input>
+            <input class="col-input" type="checkbox" id="Select-Tyre-Temp">Tyre Temp</input>
+            <input class="col-input" type="checkbox" id="Select-Tyre-Age">Tyre Age</input>
+            <input class="col-input" checked type="checkbox" id="Select-ERS">ERS</input>
+            <input class="col-input" checked type="checkbox" id="Select-Overtake">Overtake</input>
+            <input class="col-input" type="checkbox" id="Select-Fuel-Mode">Fuel Mode</input>
+            <input class="col-input" checked type="checkbox" id="Select-Fuel-Margin">Fuel Margin</input>
+            <input class="col-input" checked type="checkbox" id="Select-Penalties">Penalties</input>
+            <input class="col-input" checked type="checkbox" id="Select-Gap">Gap</input>
+            <input class="col-input" checked type="checkbox" id="Select-Wing-Damage">Wing Damage</input>
+            <input class="col-input" type="checkbox" id="Select-Sector-1">Sector 1</input>
+            <input class="col-input" type="checkbox" id="Select-Sector-2">Sector 2</input>
+            <input class="col-input" type="checkbox" id="Select-Sector-3">Sector 3</input>
+            <input class="col-input" checked type="checkbox" id="Select-Last-Lap">Last Lap</input>
+            <input class="col-input" checked type="checkbox" id="Select-Best-Lap">Best Lap</input>
+        </div>
+        </select>
     </div>
     <script src="./clientUpdater.js"></script>
 </body>
